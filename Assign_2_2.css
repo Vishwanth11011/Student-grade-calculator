@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #6464b3, #03279d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 100%;
+    padding: 20px;
+    min-height: 480px;
+}
+.container h2{
+    padding: 10px;
+}
+
+.container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.container button{
+    background-color: #030009;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 14px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.g{
+    padding: 5px 10px;
+    background-color: #c9d6ff;
+    margin: 7px;
+    width: 150px;
+    border-radius: 10px;
+}
+.dec{
+    padding: 5px 10px;
+    background-color: rgb(94, 203, 94);
+    margin: 7px;
+    width: 150px;
+    border-radius: 10px;
+}
+.output{
+    background-color: #fff;
+    border-radius: 7px;
+    width: 80px;
+    margin: 3px;
+}
